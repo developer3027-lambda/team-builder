@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import TeamInfo from './components/TeamIfno';
 
 function App() {
   return (
     <div>
-    <h1>Heeeellllloooooo</h1>
+    <TeamInfo />
     </div>
   );
 }
