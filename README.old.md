@@ -40,6 +40,11 @@ Follow these steps for completing your project.
 
 ### STEP 1 - Setup your state
 
+-removed serviceWorker from index.
+-modify index.css.
+-modify App.js, stripped it.
+-modify App.css, stripped it.
+
 - Import the `useState` hook and set up a state property for your team members list
 
 - Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
