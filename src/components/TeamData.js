@@ -2,27 +2,38 @@
 
 export default [
     {
+        id: '0',
         firsNname: 'Mason',
         lastName: 'Roberts',
         email: 'test@mail.com',
-        role: 'Q&A'
+        role: 'BayMax'
     },
     {
-        firsNname: 'Henry',
-        lastName: 'Evans',
+        id: '1',
+        firsNname: 'Clark',
+        lastName: 'Kent',
         email: 'test@mail.com',
-        role: 'Brat'
+        role: 'Superman'
     },
     {
+        id: '2',
         firsNname: 'Kate',
         lastName: 'Roberts',
         email: 'kate@awesome.com',
         role: 'Muze'
     },
     {
-        firsNname: 'Salvador',
-        lastName: 'Dali',
+        id: '3',
+        firsNname: 'Charles',
+        lastName: 'Xavier',
         email: 'knut@mail.com',
-        role: 'tester'
+        role: 'ProfessorX'
+    },
+    {
+        id: '4',
+        firsNname: 'Tony',
+        lastName: 'Stark',
+        email: 'knut@mail.com',
+        role: 'Iron Man'
     }
 ];
