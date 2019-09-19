@@ -1,12 +1,18 @@
 import React from 'react';
-import TeamCard from './TeamCard';
-import data from './TeamData';
+import './TeamInfo.css';
 
-function TeamInfo() {
-    console.log(data);
+const TeamInfo = props => {
     return (
-        <TeamCard />
-        
-    )
-}
-export default TeamInfo
+        <div className='info-list'>
+            {props.info.map(info => (
+                <div className='info' key={info.id}>
+                    <h2>{info.fName}</h2>
+                    <h2>{info.lName}</h2>
+                    <h2>{info.email}</h2>
+                    <h2>{info.role}</h2>
+                </div>
+            ))}
+        </div>
+    );
+};
+export default TeamInfo;

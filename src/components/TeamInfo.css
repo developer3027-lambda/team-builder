@@ -1,0 +1,19 @@
+.info-list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.info {
+    width: 100%;
+    max-width: 250px;
+    padding: 1rem;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+h2 {
+
+}

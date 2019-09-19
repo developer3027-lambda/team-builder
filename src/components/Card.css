@@ -1,22 +1,24 @@
 * \ {
     margin: 0;
     padding: 0;
-    align-content: center;
+    /* align-content: center; */
 }
 .base {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100vw;
-    height: 100vh;
+    margin-bottom: 1rem;
+
 }
 .formBase {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: burlywood;
+    align-items: baseline;
 }
 .form {
     display: flex;
     flex-direction: column;
+    text-align: left;
     width: 30%;
 }

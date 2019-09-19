@@ -44,6 +44,7 @@ Follow these steps for completing your project.
 -modify index.css.
 -modify App.js, stripped it.
 -modify App.css, stripped it.
+-set up card, info, 
 
 - Import the `useState` hook and set up a state property for your team members list
 
