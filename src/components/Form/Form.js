@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 const Form = (props) => {
+    console.log(props);
 
     const [member, setMember] = useState({
         name: '',
